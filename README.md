@@ -6,7 +6,8 @@
 
 # 2 Features
 
-_Creating Low-Frequency Images:_ Applies a Gaussian blur to smooth the image and generate its low-frequency representation.
+_**1 Creating Low-Frequency Images:_ **Applies a Gaussian blur to smooth the image and generate its low-frequency representation.
+
 Extracting High-Frequency Details: Isolates the fine details of an image by subtracting the blurred version from the original.
 Building Hybrid Images: Combines the low-frequency components of one image with the high-frequency features of another to create a hybrid image.
 Display Functionality: Uses cv2_imshow in Google Colab to display the processed images directly.
