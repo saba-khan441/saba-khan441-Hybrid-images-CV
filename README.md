@@ -26,16 +26,22 @@ _2 Replace the paths to your images in the script:_
 _3 Execute the script in Google Colab or any Python environment with OpenCV installed.
 
 _4 The following output files will be created:_
+
             low_freq_image.jpg
+            
             high_freq_image.jpg
+            
             hybrid_image.jpg
 
 
 # Requirements
 
 1 Python 3.x
+
 2 OpenCV
+
 3 NumPy
+
 4 Google Colab (optional but recommended for better visualization)
 
 
