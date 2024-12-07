@@ -15,25 +15,25 @@ _3 Extracting High-Frequency Details:_ Isolates the fine details of an image by 
 _4 Display Functionality:_ Uses cv2_imshow in Google Colab to display the processed images directly.
 _5 File Saving:_ Saves the resulting low-frequency, high-frequency, and hybrid images as .jpg files for later use.
 
-Usage
+# 3 Usage
 
-Clone the repository or copy the script.
-Replace the paths to your images in the script:
-python
-Copy code
-image1_path = '/path/to/image1.png'  # Replace with the first image path  
-image2_path = '/path/to/image2.png'  # Replace with the second image path  
-Execute the script in Google Colab or any Python environment with OpenCV installed.
-The following output files will be created:
-low_freq_image.jpg
+_1 Clone the repository or copy the script._
+_2 Replace the paths to your images in the script:_
+                  image1_path = '/path/to/image1.png'  # Replace with the first image path  
+                  image2_path = '/path/to/image2.png'  # Replace with the second image path  
+_3 Execute the script in Google Colab or any Python environment with OpenCV installed.
+**The following output files will be created:**
+_low_freq_image.jpg
 high_freq_image.jpg
-hybrid_image.jpg
-Requirements
+hybrid_image.jpg_
 
-Python 3.x
+
+# Requirements
+
+_Python 3.x
 OpenCV
 NumPy
-Google Colab (optional but recommended for better visualization)
+Google Colab (optional but recommended for better visualization)_
 
 
 
