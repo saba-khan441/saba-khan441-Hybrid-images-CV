@@ -13,6 +13,7 @@ _2 Building Hybrid Images:_ Combines the low-frequency components of one image w
 _3 Extracting High-Frequency Details:_ Isolates the fine details of an image by subtracting the blurred version from the original.
 
 _4 Display Functionality:_ Uses cv2_imshow in Google Colab to display the processed images directly.
+
 _5 File Saving:_ Saves the resulting low-frequency, high-frequency, and hybrid images as .jpg files for later use.
 
 # 3 Usage
@@ -22,6 +23,7 @@ _1 Clone the repository or copy the script._
 _2 Replace the paths to your images in the script:_
 
                   image1_path = '/path/to/image1.png' # Replace with the first image path  
+                  
                   image2_path = '/path/to/image2.png' # Replace with the second image path  
 _3 Execute the script in Google Colab or any Python environment with OpenCV installed.
 
