@@ -18,14 +18,17 @@ _5 File Saving:_ Saves the resulting low-frequency, high-frequency, and hybrid i
 # 3 Usage
 
 _1 Clone the repository or copy the script._
+
 _2 Replace the paths to your images in the script:_
-                  image1_path = '/path/to/image1.png'  # Replace with the first image path  
-                  image2_path = '/path/to/image2.png'  # Replace with the second image path  
+
+                  image1_path = '/path/to/image1.png' # Replace with the first image path  
+                  image2_path = '/path/to/image2.png' # Replace with the second image path  
 _3 Execute the script in Google Colab or any Python environment with OpenCV installed.
-**The following output files will be created:**
-_low_freq_image.jpg
-high_freq_image.jpg
-hybrid_image.jpg_
+
+_4 The following output files will be created:_
+            _low_freq_image.jpg
+            high_freq_image.jpg
+            hybrid_image.jpg_
 
 
 # Requirements
